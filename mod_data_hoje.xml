@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="module" client="site" method="upgrade">
+    <name>Data hoje</name>
+    <version>1.0.0</version>
+    <author>José Fernando Mendes da costa</author>
+    <creationDate>12-2024</creationDate>
+    <description>Mostra a data de hoje</description>
+    <namespace path="src">JoFernando\Module\DataHoje</namespace>
+    <files>
+        <folder module="mod_data_hoje">services</folder>
+        <folder>src</folder>
+    </files>
+</extension>
